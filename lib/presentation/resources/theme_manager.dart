@@ -1,7 +1,7 @@
-import 'package:apply_mvvm_arch/presentation/color_manager.dart';
-import 'package:apply_mvvm_arch/presentation/fonts_manager.dart';
-import 'package:apply_mvvm_arch/presentation/style_manager.dart';
-import 'package:apply_mvvm_arch/presentation/values_manager.dart';
+import 'package:apply_mvvm_arch/presentation/resources/color_manager.dart';
+import 'package:apply_mvvm_arch/presentation/resources/fonts_manager.dart';
+import 'package:apply_mvvm_arch/presentation/resources/style_manager.dart';
+import 'package:apply_mvvm_arch/presentation/resources/values_manager.dart';
 import 'package:flutter/material.dart';
 
 ThemeData getThemeData() {
