@@ -89,5 +89,38 @@ ThemeData getThemeData() {
       ),
     ),
     // Input decoration theme (Text Form Field)
+    inputDecorationTheme: InputDecorationTheme(
+      contentPadding: const EdgeInsets.all(AppPadding.p8),
+      hintStyle: getRegularTextStyle(
+        color: ColorManager.grey2,
+        fontSize: FontSizes.s14,
+      ),
+      labelStyle: getMediumTextStyle(
+        color: ColorManager.grey,
+        fontSize: FontSizes.s14,
+      ),
+      errorStyle: getRegularTextStyle(
+        color: ColorManager.error,
+        fontSize: FontSizes.s14,
+      ),
+      enabledBorder: OutlineInputBorder(
+        borderSide:
+            BorderSide(color: ColorManager.primary, width: AppSizes.s1_5),
+        borderRadius: const BorderRadius.all(Radius.circular(AppSizes.s8)),
+      ),
+      focusedBorder: OutlineInputBorder(
+        borderSide: BorderSide(color: ColorManager.grey, width: AppSizes.s1_5),
+        borderRadius: const BorderRadius.all(Radius.circular(AppSizes.s8)),
+      ),
+      errorBorder: OutlineInputBorder(
+        borderSide: BorderSide(color: ColorManager.error, width: AppSizes.s1_5),
+        borderRadius: const BorderRadius.all(Radius.circular(AppSizes.s8)),
+      ),
+      focusedErrorBorder: OutlineInputBorder(
+        borderSide:
+            BorderSide(color: ColorManager.primary, width: AppSizes.s1_5),
+        borderRadius: const BorderRadius.all(Radius.circular(AppSizes.s8)),
+      ),
+    ),
   );
 }
